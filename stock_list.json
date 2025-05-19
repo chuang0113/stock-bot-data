@@ -2,9 +2,3 @@
   "daytrade": ["2612", "3379"],
   "holding": ["2641", "6443"]
 }
-
-function fetchStockList() {
-  const url = 'https://raw.githubusercontent.com/chuang0113/stock-bot-data/main/stock_list.json';
-  const response = UrlFetchApp.fetch(url);
-  return JSON.parse(response.getContentText());
-}
